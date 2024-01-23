@@ -1,16 +1,20 @@
-#yellow {
+a {
+    cursor: pointer;
+}
+
+.yellow {
     color: #ffc107;
 }
 
-#purple {
+.purple {
     color: #A370F7;
 }
 
-#blue {
+.blue {
     color: #3D8BFD;
 }
 
-#green {
+.green {
     color: #479F76;
 }
 
@@ -28,6 +32,14 @@
     background-color: #1A1E21;
 }
 
+.dark-bg {
+    background-color: #1A1E21;
+}
+
+.semiDark-bg {
+    background-color: #343a40;
+}
+
 #work {
     color: #ffffff;
 }
@@ -42,3 +54,29 @@
     transition: 0.3s ease-in-out;
 }
 
+.container {
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+#hero {
+    transition: all .5s ease;
+    -webkit-transform: rotateX(0deg);
+    transform: rotateX(0deg);
+    -webkit-transform-origin-y: 300px; /* rotates from the bottom of the image */
+}
+
+#hero:hover {
+    -webkit-transform: rotateY(-20deg);
+    transform: rotateY(-20deg)
+
+}
+
+li {
+    line-height: 2rem;
+}
+
+code {
+    color: #A370F7;
+}

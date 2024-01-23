@@ -23,18 +23,20 @@
                 </a>
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                     <li><a href="#" aria-current="page" class="nav-link px-2 text-secondary">Home</a></li>
-                        <li class="nav-item dropdown">
-                            <a id="work" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Work
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="./public/SoLaWi.html">SoLaWi</a></li>
-                              <li><a class="dropdown-item" href="#">RepApp</a></li>
-                            </ul>
-                          </li>
+                    <li class="nav-item dropdown">
+                        <a id="work" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Work
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./public/SoLaWi.html">SoLaWi</a></li>
+                            <li><a class="dropdown-item" href="#">RepApp</a></li>
+                        </ul>
+                    </li>
 
                     <li><a href="./public/about.html" class="nav-link px-2 text-white">About</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">CV</a></li>
+                    <li><a href="https://drive.google.com/file/d/1L1RvJWwiJvAnNpC0IJl8PlsVWmjOHNcN/view?usp=sharing"
+                            target="_blank" class="nav-link px-2 text-white">CV</a></li>
                 </ul>
             </div>
         </header>
@@ -42,27 +44,26 @@
     </section>
 
     <!-- Hero -->
-    <section id="hero">
+    <section id="herSection">
         <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="./assets/images/hero-image-1.png" class="d-block mx-lg-auto img-fluid"
+                    <img id="hero" src="./assets/images/hero-image-1.png" class="d-block mx-lg-auto img-fluid"
                         alt="Bootstrap Themes" height="400" loading="lazy">
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, <span id="yellow">I'm Markus,</span>
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, <span class="yellow">I'm
+                            Markus,</span>
                         UX/UI Designer and Web Developer</h1>
-                    <p class="lead fw-semibold">I have passion for <span id="purple">design</span>, <span
-                            id="blue">music</span> and <span id="green">coding.</span></p>
-                    <p class="fst-italic">Currently searching for new challenges.</p>
-                    <div class="row flex-lg-row-reverse align-items-center" style="width: 32px;"><script src="https://cdn.lordicon.com/lordicon.js"></script>
-                        <lord-icon
-                            src="https://cdn.lordicon.com/rmkahxvq.json"
-                            trigger="loop"
-                            speed="2"
-                            loading="lazy"
+                    <p class="lead fw-semibold">I have passion for <span class="purple">design</span>, <span
+                            class="blue">music</span> and <span class="green">coding.</span></p>
+                    <p class="fst-italic">Currently seeking new challenges.</p>
+                    <div class="row flex-lg-row-reverse align-items-center" style="width: 32px;">
+                        <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                        <lord-icon src="https://cdn.lordicon.com/rmkahxvq.json" trigger="loop" speed="2" loading="lazy"
                             colors="primary:#dee2e6">
-                        </lord-icon></div>
+                        </lord-icon>
+                    </div>
                 </div>
             </div>
         </div>
@@ -74,39 +75,42 @@
             <h2 class="pb-2 border-bottom text-dark"><img src="./assets/images/paint-bucket.svg" alt="paint-bucket"
                     height="34" class="align-center pe-12"> Recent Projects</h2>
             <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
-                <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                        style="background-image: url('./assets/images/SoLaWi.jpg');">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Design Thinking: SoLaWi</h3>
-                            <p>(german only)</p>
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto ">
-                                    <img src="./assets/images/Design-icon.png" alt="UX Design Project" width="32"
-                                        height="32" class="me-2"> <span class="shadow bold">Design Project</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col">
-                    <a href="./.."></a>
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                        style="background-image: url('unsplash-photo-2.jpg');">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">RepAPP: Track your weight training
-                            </h3>
-                            <p>(coming soon)</p>
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="me-auto">
-                                    <img src="./assets/images/Design-icon.png" alt="UX Design Project" width="32"
-                                        height="32" class="me-2 shadow"> <span class="bold">Design Project</span>
-                                </li>
-                            </ul>
+                <a href="./public/SoLaWi.html">
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                            style="background-image: url('./assets/images/SoLaWi.jpg');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Design Thinking: SoLaWi <br> App
+                                </h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto ">
+                                        <img src="./assets/images/Design-icon.png" alt="UX Design Project" width="32"
+                                            height="32" class="me-2"> <span class="shadow bold">Design Project</span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
+
+                <a href="./public/SoLaWi.html">
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                            style="background-image: url('unsplash-photo-2.jpg');">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">RepAPP: Track your weight training
+                                </h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="./assets/images/Design-icon.png" alt="UX Design Project" width="32"
+                                            height="32" class="me-2 shadow"> <span class="bold">Design Project</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </a>
 
             </div>
         </div>
@@ -115,8 +119,8 @@
     <!-- Skills -->
     <section id="skills">
         <div class="container px-4 py-5" id="skills">
-            <h2 class="pb-2 border-bottom"><img class="pb-1" src="./assets/images/dpad.svg" alt="dpad" height="32" width="32"
-                    class="align-center pe-1"> Skills</h2>
+            <h2 class="pb-2 border-bottom"><img class="pb-1" src="./assets/images/dpad.svg" alt="dpad" height="32"
+                    width="32" class="align-center pe-1"> Skills</h2>
 
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 py-5">
                 <div class="col d-flex align-items-start">
@@ -125,7 +129,7 @@
                         <h3 class="fw-bold mb-1 fs-4 text-body-emphasis">Design</h3>
                         <p>Figma, Adobe Xd,
                             User Interviews, Personas,
-                            Design Systems,
+                            Design Systems, UX Copy,
                             Info Architecture, Onboarding</p>
                     </div>
                 </div>
@@ -152,7 +156,7 @@
                         <h3 class="fw-bold mb-1 fs-4 text-body-emphasis">UX Research</h3>
                         <p>User Interviews, Personas,
                             Empathy Maps, Usability Tests,
-                            Surveys (Gainsight PX)</p>
+                            Surveys (Gainsight PX), UX Prompts</p>
                     </div>
                 </div>
                 <div class="col d-flex align-items-start">
@@ -183,34 +187,45 @@
     <!-- Experience -->
     <section id="experience">
         <div class="container px-4 py-5" id="experience">
-            <h2 class="pb-2 border-bottom"><img class="pb-1" src="./assets/images/briefcase.svg" alt="dpad" height="32" width="32"
-                    class="align-center pe-1"> Experience</h2>
+            <h2 class="pb-2 border-bottom"><img class="pb-1" src="./assets/images/briefcase.svg" alt="dpad" height="32"
+                    width="32" class="align-center pe-1"> Experience</h2>
 
             <div class="row row-cols-1 g-4 py-5">
-                    <div>
-                        <h3 class="mb-2 fs-4 text-body-emphasis">Senior UX/UI Designer</h3>
+                <div>
+                    <h3 class="mb-2 fs-4 text-body-emphasis">Senior UX/UI Designer</h3>
+                    <a href="https://itonics-innovation.com" target="_blank">
                         <p class="fst-italic mb-4">ITONICS GmbH • January 2023 - March 2024</p>
-                        <p class="mb-1">Led a team of UX/UI designers and had the design lead for all product lines, 
-                            collaborating with product managers to define product specs.
-                            Conducting UX research including secondary and primary research methods.
-                            Maintained the design system in Figma, ensuring consistency.
-                            Played a key role in shaping the UX vision and strategy, aligning them with business goals and user feedback. </p>
-                    </div>
+                    </a>
+                    <p class="mb-1">Led a team of UX/UI designers and had the design lead for all product lines,
+                        collaborating with product managers to define product specs.
+                        Conducting UX research including secondary and primary research methods.
+                        Maintained the design system in Figma, ensuring consistency.
+                        Played a key role in shaping the UX vision and strategy, aligning them with business goals and
+                        user feedback. </p>
+                </div>
             </div>
             <div class="row row-cols-1 g-4 py-5">
                 <div>
                     <h3 class="mb-2 fs-4 text-body-emphasis">UX/UI Designer</h3>
-                    <p class="fst-italic mb-4">ITONICS GmbH • November 2018 - January 2023</p>
-                    <p class="mb-1">Led UI design for a product line using Adobe Xd, fostering collaboration with product managers. Specialized in mobile app design and worked closely with the development team to ensure seamless integration.</p>
+                    <a href="https://itonics-innovation.com" target="_blank">
+                        <p class="fst-italic mb-4">ITONICS GmbH • November 2018 - January 2023</p>
+                    </a>
+                    <p class="mb-1">Led UI design for a product line using Adobe Xd, fostering collaboration with
+                        product managers. Specialized in mobile app design and worked closely with the development team
+                        to ensure seamless integration.</p>
                 </div>
-        </div>
-        <div class="row row-cols-1 g-4 py-5">
-            <div>
-                <h3 class="mb-2 fs-4 text-body-emphasis">Working Student, Product Management</h3>
-                <p class="fst-italic mb-4">ITONICS GmbH • October 2016 - November 2018</p>
-                <p class="mb-1">Collaborated with product managers to design and specify mobile apps, working closely with the development team. Additionally, created product videos for clients and marketing materials using Adobe Premiere and After Effects.</p>
             </div>
-    </div>
+            <div class="row row-cols-1 g-4 py-5">
+                <div>
+                    <h3 class="mb-2 fs-4 text-body-emphasis">Working Student, Product Management</h3>
+                    <a href="https://itonics-innovation.com" target="_blank">
+                        <p class="fst-italic mb-4">ITONICS GmbH • October 2016 - November 2018</p>
+                    </a>
+                    <p class="mb-1">Collaborated with product managers to design and specify mobile apps, working
+                        closely with the development team. Additionally, created product videos for clients and
+                        marketing materials using Adobe Premiere and After Effects.</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -222,7 +237,9 @@
         crossorigin="anonymous"></script>
 </body>
 <footer>
-    <div class="container d-flex align-items-start "><p class="py-5">© 2024 Markus Kapferer</p></div>
+    <div class="container d-flex align-items-start ">
+        <p class="py-5">© 2024 Markus Kapferer</p>
+    </div>
 </footer>
 
 </html>
