@@ -14,33 +14,31 @@
 
     <!-- Navigation -->
     <section id="navigation">
-
         <header class="p-3 text-bg-dark">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a href="./index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <a href="./index.html" class="navbar-brand d-flex align-items-center">
                     <img src="./assets/images/MK-Logo.jpg" alt="mk logo" height="32px" style="border-radius: 2px;">
                     <h6 class="align-baseline mb-0 mx-2">MARKUS KAPFERER</h4>
                 </a>
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" aria-current="page" class="nav-link px-2 text-secondary">Home</a></li>
+                    <li><a href="#" aria-current="page" class="nav-link px-2 active">Home</a></li>
                     <li class="nav-item dropdown">
                         <a id="work" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Work
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./public/SoLaWi.html">SoLaWi</a></li>
-                            <li><a class="dropdown-item" href="#">RepApp</a></li>
+                            <li><a class="nav-link dropdown-item" href="./public/SoLaWi.html">SoLaWi</a></li>
+                            <li><a class="nav-link dropdown-item" href="#">RepApp</a></li>
                         </ul>
                     </li>
 
-                    <li><a href="./public/about.html" class="nav-link px-2 text-white">About</a></li>
+                    <li><a href="./public/about.html" class="nav-link px-2">About</a></li>
                     <li><a href="https://drive.google.com/file/d/1L1RvJWwiJvAnNpC0IJl8PlsVWmjOHNcN/view?usp=sharing"
-                            target="_blank" class="nav-link px-2 text-white">CV</a></li>
+                            target="_blank" class="nav-link px-2">CV</a></li>
                 </ul>
             </div>
         </header>
-
     </section>
 
     <!-- Hero -->
@@ -52,7 +50,7 @@
                         alt="Bootstrap Themes" height="400" loading="lazy">
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, <span class="yellow">I'm
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hi, <span class="yellow-glow">I'm
                             Markus,</span>
                         UX/UI Designer and Web Developer</h1>
                     <p class="lead fw-semibold">I have passion for <span class="purple">design</span>, <span
@@ -76,9 +74,10 @@
                     height="34" class="align-center pe-12"> Recent Projects</h2>
             <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
 
-                <a href="./public/SoLaWi.html">
+                
                     <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        <a href="./public/SoLaWi.html" class="nounderline">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                             style="background-image: url('./assets/images/project-solawi/SoLaWi.jpg');">
                             <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Design Thinking: SoLaWi <br> App
@@ -91,26 +90,26 @@
                                 </ul>
                             </div>
                         </div>
+                        </a>
                     </div>
-                </a>
 
-                <a href="./public/SoLaWi.html">
+
                     <div class="col">
                         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                            style="background-image: url('unsplash-photo-2.jpg');">
+                            style="background-image: url('./assets/images/gym-tracking-app.jpg');">
                             <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">RepAPP: Track your weight training
+                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">COMING SOON RepAPP: Track your weight training
                                 </h3>
                                 <ul class="d-flex list-unstyled mt-auto">
                                     <li class="me-auto">
-                                        <img src="./assets/images/Design-icon.png" alt="UX Design Project" width="32"
-                                            height="32" class="me-2 shadow"> <span class="bold">Design Project</span>
+                                        <img src="./assets/images/Design-icon.png" alt="UX Design Project" width="30"
+                                            height="30" class="me-2 shadow"> <span class="bold shadow-lg">Design Project</span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </a>
+
 
             </div>
         </div>
