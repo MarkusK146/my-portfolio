@@ -18,20 +18,22 @@ Planned URLs after publication:
 ### Draft status — do not deploy yet
 
 All pages deliberately carry a review banner and `noindex, nofollow`. This is a
-draft branch, not a published privacy policy or working support address.
+draft branch, not a published privacy policy or verified support channel.
 
 - Owner confirmed publisher name and postal address for these public pages on
   21 October 2026. Do not import other contact details from account settings or
   the old portfolio without the owner's direction.
-- `airpiano@markuskapferer.de` is proposed and not yet verified. Public DNS currently
-  routes mail to STRATO (`smtpin.rzone.de`). The owner is checking existing mailboxes,
-  aliases and forwarding rules in STRATO's E-Mail-Verwaltung.
-- Select the mailbox provider, confirm any existing addresses, and verify both
-  receiving mail and replying from the support address before publishing it.
-  iCloud+ is available, but changing MX records changes delivery for the whole
-  domain. STRATO may already provide a suitable mailbox under the current package.
-- Complete the email-provider paragraph in the privacy notice with the actual
-  service and its privacy/transfer information. Confirm the proposed purposes,
+- The owner has created `airpiano@markuskapferer.de` as a forwarding address to
+  their existing inbox. Successful receipt and the sender shown on replies still
+  need verification. The destination address is not needed in public documentation.
+- Public DNS routes mail to STRATO (`smtpin.rzone.de`), but the owner still needs
+  to confirm the forwarding provider and the receiving inbox provider. No mail
+  routing migration is planned for this setup and no DNS was changed.
+- Verify delivery from an independent sender and confirm the reply identity.
+  A forwarding address alone does not establish the ability to send replies as
+  `airpiano@markuskapferer.de`; do not claim that this has been configured or tested.
+- Complete the email-provider paragraph in the privacy notice with both actual
+  services and their privacy/transfer information. Confirm the proposed purposes,
   legal bases and retention criteria reflect the publisher's support practices.
 - Confirm any applicable register/tax identification details and other required
   publisher information. No register number, VAT ID, business ID or phone number
